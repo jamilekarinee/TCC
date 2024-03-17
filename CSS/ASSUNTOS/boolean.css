@@ -10,19 +10,17 @@
     --cor_body: #002A62; 
 }
 
+ul li{
+    margin-left: 40px;
+    color: white;
+}
+a{
+    color: white; 
+}
 body {
     font-family: poppins, sans-serif;
     background-color: var(--cor_body);
 }
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 700,
-  'GRAD' 200,
-  'opsz' 48
-}
-
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -32,8 +30,12 @@ body {
     height: var(--altura_cabecalho);
     padding: 35px 40px; 
 }
-
 .cabecalho__detalhes{
+    display: flex;
+    align-items: center;
+}
+.redirecionar_pag_inicial{
+    text-decoration: none;
     display: flex;
     align-items: center;
 }
@@ -57,9 +59,6 @@ nav li a{
     color: white;
     text-decoration: none;
 }
-.icon_cabecalho_inicio{
-    color: white;
-}
 .icon_cabecalho{
     color: white; 
 }
@@ -77,54 +76,41 @@ nav li a{
 }
 .topicos a:hover{
     background-color: #398cf8;
-    
 }
 .topicos a{
     display: block;
     color: white;
 }
-.painel_1{
-    background-color: var(--azul_escuro); 
+
+
+.texto_body_titulo{
+    color: white;
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+    font-size: 22px;
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px; 
-    height: auto;
-    align-items: center;
-}
-.texto_painel_1{
-    color: white;
-    padding: 10px;
-    font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
-}
-.fonte_painel_1{
-    color: white;
-    margin-left: 80%;
-}
-.link_painel_1{
-    color: white;
-}
-.texto_body_titulo{
-    font-family: 'Lexend', Arial, Helvetica, sans-serif; 
-    margin-left: 20px; 
-    color: white;
 }
 .texto_body_texto{
-    font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
-    margin-left: 20px; 
     color: white;
-    margin-bottom: 10px;
-}
-.textos_container{
+    font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
+    margin-left: 20px;
     display: inline-block;
 }
-.visual_studio_code_img{
-    height: 50px;
-    width: 100px;
+.imagens_dos_codigos{
+    height: 80px;
+    width: 300px;
     margin-left: 20px;
 }
-
+.imagens_dos_codigos_margin{
+    height: 80px;
+    width: 300px;
+    margin-left: 40px;
+}
+.voltar_pag_inicial{
+    font-family: 'Courier Prime', Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    margin-left: 20px;
+}
 
 .main-footer {
 	background-color: black;
