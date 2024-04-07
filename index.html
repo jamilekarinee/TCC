@@ -57,7 +57,7 @@
                                 <a href="">Const e Let</a>
                                 <a href="./HTML/ASSUNTOS/string.html">String</a>
                                 <a href="./HTML/ASSUNTOS/number.html">Number</a>
-                                <a href="">Boolean</a>
+                                <a href="./HTML/ASSUNTOS/boolean.html">Boolean</a>
                                 <a href="">Null e Undefined </a>
                                 <a href="">Object </a>
                                 <a href="">Array</a>
@@ -76,7 +76,7 @@
         <p class="texto_painel_1">Conheça a extensão JavaScript que é usada no <strong>desenvolvimento de sites
                 e aplicações web que podem ser executados tanto do lado do usuário como do lado do servidor.</strong>
         </p>
-        <p class="fonte_painel_1">Fonte: <a class="link_painel_1"
+        <p class="fonte_painel_1">Fonte: <a class="links"
                 href="https://awari.com.br/o-que-e-typescript/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=O%20que%20%C3%A9%20TypeScript%20e%20por%20que%20utiliz%C3%A1-lo#:~:text=O%20principal%20uso%20do%20TypeScript,%2Dend%20quanto%20back%2Dend.">Awari</a>
         </p>
     </div>
@@ -109,21 +109,192 @@
     </div>
     <br>
     <br>
-    <p class="texto_body_titulo">CONFIGURAÇÕES NECESSÁRIAS PARA UTILIZAR TYPESCRIPT</p>
+    <p><strong class="texto_body_titulo">CONFIGURAÇÕES NECESSÁRIAS PARA UTILIZAR TYPESCRIPT</strong></p>
+    <p class="texto_body_texto">Para que seja possível programar em TypeScript é necessário que seja feita a instalação
+        de algumas ferramentas, que são:</p>
+
+    <!-- VS Code -->
+    <p class="texto_body_texto">1. Visual Studio Code</p>
+    <img class="img-fluid visual_studio_code_img" src="./IMAGES/visual_studio_code.png">
+    <p class="texto_body_texto">Esse editor de código fonte foi desenvolvido pela Microsoft e lançado em 2015
+        com o objetivo de desenvolver aplicações. O VSCode é leve, multiplataforma, gratuito e de código aberto.</p>
+    <p class="texto_body_texto">As funcionalidades dessa ferramenta são diversas. Além do usuário poder escolher
+        o layout por meio das configurações, ele também terá acesso a esses recursos:</p>
+    <ul>
+        <li class="texto_body_texto_li">Depuração de código;</li>
+        <li class="texto_body_texto_li">IntelliSense;</li>
+        <li class="texto_body_texto_li">Variedade de extensões e muito mais.</li>
+    </ul>
+    </br>
+    <p class="texto_body_texto">Mais informações:</p>
+    <ul>
+        <li class="texto_body_texto_li">Disponível para: Windows, Mac OS e Linux.</li>
+        <li class="texto_body_texto_li">Outras linguagens de programação: JavaScript, C, C++, PHP, C#, Java e Python.
+        </li>
+        <li class="texto_body_texto_li">Onde instalar: <a href="https://code.visualstudio.com/" class="links"
+                target="_blank">https://code.visualstudio.com/</a></li>
+    </ul>
+    </br>
+    <!-- Instalação Visual Studio Code -->
+    <p class="texto_body_texto"><strong>Instalação para Windows</strong></p>
+    <p class="texto_body_texto">A instalação pode ser feita através do link <a href="https://code.visualstudio.com/"
+            class="links" target="_blank">https://code.visualstudio.com/</a></p>
+    <p class="texto_body_texto"><strong>Passo 1:</strong></p>
+    <p class="texto_body_texto">Após acessar o link oficial, escolha a opção para Windows e aguarde o download
+        automático, que ficará visível no canto inferior da tela do seu aparelho.</p>
+    <img class="img-fluid instalacao_vcscode_imgs" src="./IMAGES/INSTALACAO VSCODE/img_1.png">
+    <p class="texto_body_texto">Ao clicar na aba de download, clique em “executar” se uma janela abrir. Após essa
+        janela, o instalador deve selecionar a língua desejada. Ainda não possui o instalador da ferramenta na língua
+        portuguesa, por isso, prossiga com o inglês.</p>
+    <p class="texto_body_texto">Após isso, a aba de boas vindas do VS Code será aberta, clique em next para prosseguir
+        com a instalação.</p>
+    <img class="img-fluid instalacao_vcscode_imgs" src="./IMAGES/INSTALACAO VSCODE/img_2.png">
+    <p class="texto_body_texto">Os próximos passos serão para seleção do local de instalação, que para deixar padrão
+        basta clicar em “Next”. Depois, dará a opção de alteração do nome do programa, basta clicar em “Next” para
+        continuar padrão. Após esses processos, aparecerá a seguinte tela: </p>
+    <img class="img-fluid instalacao_vcscode_imgs" src="./IMAGES/INSTALACAO VSCODE/img_3.png">
+    <p class="texto_body_texto">Pode marcar todas as opções e prosseguir, assim como mostra a imagem. Logo após,
+        aparecerá um resumo da instalação, clique em “Install” para instalar. Uma barra de carregamento indicará o
+        progresso de instalação, quando completada clique em “Finish” para finalizar.</p>
+    <p class="texto_body_texto">O VS Code agora pode ser utilizado!</p>
+
+    </br>
+
+    <!-- Como utilizar o Visual Studio Code -->
+    <p><strong class="texto_body_titulo"> COMO UTILIZAR O VISUAL STUDIO CODE</strong></p>
+    <p class="texto_body_texto">O Vs Code possui diversas funcionalidades, se você começou a utilizar esta ferramenta
+        recentemente, venha conhecê-las:</p>
     <ol>
-        <li>
-            <p class="texto_body_texto">Visual Studio Code</p>
-            <img class="img-fluid visual_studio_code_img" src="./IMAGES/visual_studio_code.png">
-            <p class="texto_body_texto">Esse editor de código fonte foi desenvolvido pela Microsoft e lançado em 2015
-                com o objetivo de desenvolver aplicações. O VSCode é leve, multiplataforma, gratuito e de código aberto.
-            </p>
-            <p class="texto_body_texto">As funcionalidades dessa ferramenta são diversas. Além do usuário poder escolher
-                o layout por meio das configurações, ele também terá acesso a esses recursos:
-            </p>
+        <li class="texto_body_texto_li"><strong>Como abrir pastas no Vs Code?</strong></li>
+        <p class="texto_body_texto_margin">Esse procedimento é bem simples, e aqui vamos mostrar duas maneiras
+            diferentes de
+            fazê-lo.</p>
+        <p class="texto_body_texto_margin"><strong>1º Abrir pastas da Área de Trabalho:</strong></p>
+        <p class="texto_body_texto_margin">As pastas são necessárias porque são nelas que seus códigos ficarão
+            guardados.</p>
+        <p class="texto_body_texto_margin">-> Em sua área de trabalho, clique com o botão direito do mouse e aperte em
+            “Novo” e depois em “Pasta”, coloque um nome em sua pasta e abra o VS Code.</p>
+        <p class="texto_body_texto_margin">-> No VS Code, no canto superior esquerdo, clique em “File” (arquivo em
+            português).</p>
+        <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_4.png">
+        <p class="texto_body_texto_margin">Após isso, clique em “Open Folder” (abrir pasta) e selecione a pasta criada
+            em sua área de trabalho.
+        </p>
 
+        </br>
 
+        <p class="texto_body_texto_margin"><strong>2 º Criar pastas sem sair do VS Code:</strong></p>
+        <p class="texto_body_texto_margin">Caso ainda não tenha criado sua pasta, basta ir em “File” > “Open Folder” >
+            selecionar o local que deseja criar sua pasta, clicar em “Nova Pasta” e selecioná-la. Você também pode
+            utilizar o atalho “Ctrl + k” ou “Ctrl + o” e seguir o mesmo procedimento.</p>
+        <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_5.png">
+
+        </br>
+        </br>
+
+        <!-- Como instalar extensões-->
+        <li class="texto_body_texto_li"><strong>Como instalar extensões?</strong></li>
+        <p class="texto_body_texto_margin">O VS Code possui uma gama de extensões para auxiliar no processo da criação
+            de códigos. Com elas, é possível encontrar muitos recursos e funcionalidades, independente da linguagem
+            utilizada. As extensões ficam localizadas no menu lateral. Inclusive, para mudar o idioma do seu VS Code
+            para portugês, basta pesquisar por “Português Brasil” e instalar.
+        </p>
+        <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_6.png">
+
+        </br>
+        </br>
+
+        <!-- Como trocar o layout do meu VS Code -->
+        <li class="texto_body_texto_li"><strong>Como trocar o layout do meu VS Code?</strong></li>
+        <p class="texto_body_texto_margin">Também é possível trocar o layout do VS Code de acordo com a preferência do
+            usuário.
+            Para isso, basta ir na Configurações, localizadas no canto inferior esquerdo, clicar em “Themes” (temas) e
+            depois ir
+            em “Color themes”, lá serão mostradas algumas opções e você ainda pode pesquisar por outras em “+ Browse
+            Additional
+            Color Themes…” (Procure por temas de cores adicionais).
+        </p>
+        <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_7.png">
+
+        <p class="texto_body_texto_margin">Conheça alguns (dos muitos) temas:</p>
+        <ul>
+            <li class="texto_body_texto_li">Dark Modern</li>
+            <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_8.png">
+
+            <li class="texto_body_texto_li">Light Modern</li>
+            <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_9.png">
+
+            <li class="texto_body_texto_li">Kimble Dark</li>
+            <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_10.png">
+
+            <li class="texto_body_texto_li">Tomorrow Night Blue</li>
+            <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_11.png">
+        </ul>
+        <p class="texto_body_texto_margin">Para saber mais detalhes, consulte o site oficial do VS Code: <a
+                href="https://code.visualstudio.com/docs/getstarted/themes"
+                class="links" target="_blank">https://code.visualstudio.com/docs/getstarted/themes </a> e descubra mais temas e maneiras de
+                deixar seu ambiente de programação do jeito que preferir.
+            
+        </p>
+    </ol>
+    </br>
+    </br>
+    </br>
+
+    <!-- Node.js -->
+    <p class="texto_body_texto">2. Node.js</p>
+    <img class="img-fluid visual_studio_code_img" src="./IMAGES/nodejs.png">
+    <p class="texto_body_texto">O Node.JS é utilizado na compilação do TypeScript por sua capacidade de executar
+        scripts em JavaScript. O “tsc” é um compilador embutido do TypeScript que traduz essa linguagem para
+        JavaScript, para que possa ser executado em ambientes compatíveis com o JavaScript (incluindo o Node.Js). A
+        integração do Node.js na compilação do TypeScript é feita usando-se ferramentas como o “npm” para instalar o
+        TypeScript localmente no projeto, e então o tsc pode ser usado na compilação dos arquivos TypeScript em
+        JavaScript.
+    </p>
+    <!-- Instalação Node.js -->
+    <p class="texto_body_texto"><strong>Instalação para Windows</strong></p>
+    <ol>
+        <li class="texto_body_texto_li">Acesse o site oficial (<a href="https://nodejs.org/en/download" class="links"
+                target="_blank">https://nodejs.org/en</a>) e escolha a opção para windows.
+        </li>
+        <li class="texto_body_texto_li">Clique sobre o arquivo que foi baixado e pressione “Next” para avançar.</li>
+        <li class="texto_body_texto_li">Para continuar, é necessário aceitar os termos do Contrato de Licença do Usuário
+            Final e apertar “Next”.
+        </li>
+        <li class="texto_body_texto_li">Pressione “Next” para deixar a pasta de destino padrão.</li>
+        <li class="texto_body_texto_li">Após isso, aparecerá a tela para seleção dos recursos. Se quiser deixá-los
+            padrão, clique em “Next”.
+        </li>
+        <li class="texto_body_texto_li">Na próxima tela, clique em Automatically install the necessary tools (Instalar
+            automaticamente as ferramentas necessárias) e depois “Next” para avançar. Após basta clicar em “install”
+            (caso pergunte se deseja permitir que o instalador faça alterações, permita).
+        </li>
+        <li class="texto_body_texto_li">Uma janela de prompt será aberta. Para prosseguir, basta clicar duas vezes em
+            qualquer tecla.
+        </li>
+        <li class="texto_body_texto_li">Após isso, uma interface aparecerá. Clique em “ENTER”.</li>
+        <li class="texto_body_texto_li">Depois, basta abrir um prompt de comando (cmd) e digitar:
+            <strong>node -v</strong> e
+            <strong>npm -v</strong>
+            para verificar a versão instalada.
         </li>
     </ol>
+    <p class="texto_body_texto">Instalação concluída!</p>
+    
+    </br>
+
+    <p class="texto_body_texto">Após a instalação do Node.Js, abra um terminal (cmd ou PowerShell) e digite <strong>npm
+            install -g typescript</strong> para compilar seus códigos TypeScript com tsc durante a programação.
+    </p>
+    </br>
+    <p class="texto_body_texto">Mais informações:</p>
+    <ul>
+        <li class="texto_body_texto_li">Windows, Mac OS e Linux.</li>
+        <li class="texto_body_texto_li">Onde instalar: <a href="https://nodejs.org/en/download/" class="links"
+                target="_blank">https://nodejs.org/en/download/</a></li>
+    </ul>
+
+    <!-- Rodapé -->
     <footer class="main-footer">
         <div class="div1_rodape">
             <img src="./IMAGES/rodape.png" class="img_rodape img-fluid">

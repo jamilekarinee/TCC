@@ -12,7 +12,7 @@
 
 body {
     font-family: poppins, sans-serif;
-    background-color: var(--cor_body);
+    background-color: var(--cor_body); 
 }
 
 .material-symbols-outlined {
@@ -31,6 +31,7 @@ body {
     align-items: center;
     height: var(--altura_cabecalho);
     padding: 35px 40px; 
+    width: 100%;
 }
 
 .cabecalho__detalhes{
@@ -95,37 +96,72 @@ nav li a{
 }
 .texto_painel_1{
     color: white;
-    padding: 10px;
+    padding: 10px; 
     font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
 }
 .fonte_painel_1{
     color: white;
     margin-left: 80%;
 }
-.link_painel_1{
+.links{
     color: white;
+}
+.texto_body_texto_iniciais{
+    font-family: poppins, sans-serif;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    color: white;
+
 }
 .texto_body_titulo{
     font-family: 'Lexend', Arial, Helvetica, sans-serif; 
     margin-left: 20px; 
     color: white;
+    display: inline-block;
 }
 .texto_body_texto{
-    font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
+    font-family: poppins, sans-serif;
     margin-left: 20px; 
+    margin-right: 20px; 
     color: white;
-    margin-bottom: 10px;
 }
 .textos_container{
     display: inline-block;
 }
 .visual_studio_code_img{
-    height: 50px;
-    width: 100px;
+    height: 100px;
+    width: 200px;
     margin-left: 20px;
+}
+.texto_body_texto_li{
+    margin-left: 40px; 
+    
+    color: white;
+}
+.passos_instalacao{
+    margin-left: 30px; 
+    display: inline-block;
+}
+.instalacao_vcscode_imgs{
+    height: auto;
+    width: 50%;
+    margin-left: 20px;
+}
+.texto_body_texto_margin{
+    font-family: poppins, sans-serif;
+    margin-left: 30px; 
+    margin-right: 20px; 
+    color: white;
+}
+.instalacao_vcscode_imgs_2{
+    height: auto;
+    width: 50%;
+    margin-left: 30px;
 }
 
 
+/* Rodapé */ 
 .main-footer {
 	background-color: black;
     display: flex;
