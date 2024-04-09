@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boolean</title>
-    <link rel="stylesheet" href="../../CSS/ASSUNTOS/boolean.css">
+    <title>Let e Const</title>
+    <link rel="stylesheet" href="../../CSS/ASSUNTOS/string.css">
     <!-- Google Fonts : -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -44,10 +44,10 @@
                         <li class="lista_do_cabecalho">
                             <i class="material-icons icon_cabecalho">menu</i>
                             <div class="topicos">
-                                <a href="./let_e_const.html">Let e Const</a>
+                                <a href="">Let e Const</a>
                                 <a href="./string.html">String</a>
                                 <a href="./number.html">Number</a>
-                                <a href="">Boolean</a>
+                                <a href="./boolean.html">Boolean</a>
                                 <a href="">Null e Undefined </a>
                                 <a href="">Object </a>
                                 <a href="./array.html">Array</a>
@@ -61,64 +61,49 @@
     </header>
     <!-- Fim do Cabeçalho -->
 
-    <p class="texto_body_titulo"><strong>Boolean (Booleano)</strong></p>
-    <p class="texto_body_texto">Representa um valor lógico verdadeiro (true) ou falso (false). Exemplos:
-    </p>
+    <p class="texto_body_titulo"><strong>Diferença entre Let e Const</strong></p>
+    <!-- Let -->
     <ul>
-        <li>True</li>
-        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_1.png">
-
-        <li>False</li>
-        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_2.png">
-        <br>
-        <br>
-
-        <p class="texto_body_texto">O boolean será usado em condições no TypeScript. Confira a <a href="#">Lista de
-                Exercícios</a> desse assunto e o uso do boolean nele.</p>
-    </ul>
-    <br>
-    <p class="texto_body_texto">Lembre-se que o "let" na declaração da variável pode ser substituído por <i>const</i>,
-        dependendo do seu uso futuro. Aprenda mais sobre a diferença de let e const clicando
-        <a href="./let_e_const.html">aqui</a>.
-    </p>
-    <br>
-
-    <!-- Operadores de comparação -->
-    <p class="texto_body_titulo">Operadores de comparação</p>
-    <p class="texto_body_texto">Além dos operadores de comparação, TS
-        também possui operadores lógicos que permitem combinar ou negar valores booleanos.
-        Os principais operadores lógicos em TS são:</p>
-    <ul>
-        <li>&& (E lógico): Retorna true se ambos os operandos forem true.</li>
-        <li>|| (OU lógico): Retorna true se pelo menos um dos operandos for true.</li>
-        <li>! (NÃO lógico): Inverte o valor de um operando booleano.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_3.png">
-    </ul>
-    <br>
-
-    <ul>
-        <li>Igualdade fraca ou abstrata (==): Compara e aceita dois valores iguais (até mesmo se estiverem
-            com tipos diferentes).
+        <li>
+            <p class="texto_body_titulo"><strong>Let</strong></p>
         </li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_4.png">
-
-        <li>Desigualdade fraca ou abstrata (!=): Retorna verdadeiro se os operandos forem diferentes.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_5.png">
-
-        <li>Igualdade estrita (===): retorna verdadeiro se os operandos forem estritamente os mesmos, ou seja,
-            se contiverem o mesmo valor e forem do mesmo tipo.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_6.png">
-
-        <li>Desigualdade estrita (!===): retorna verdadeiro se os operandos forem diferentes em valor e/ou
-            tipo.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_7.png">
     </ul>
-    <br>
+    <p class="texto_body_texto">O let permite que você declare uma variável com escopo de bloco, o que significa que ela
+        é <strong>acessível apenas dentro do bloco onde foi declarada</strong>.Uma variável declarada com let pode ser
+        reatribuída a um
+        novo valor dentro do mesmo escopo. Ele não permite a redeclaração de variáveis no mesmo escopo. <strong>Tentar
+            redeclarar uma variável resultará em um erro de sintaxe.</strong>
+    </p>
+    <p class="texto_body_texto">Mostrando isso na prática:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_1.png">
+    </br>
+    <p class="texto_body_texto">aneira correta de declarar variável usando let:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_2.png">
 
-    <br>
-    <br>
-    <p class="voltar_pag_inicial"><a href="../../index.html">Voltar para a página inicial</a></p>
+    <!-- Const -->
+    <ul>
+        <li>
+            <p class="texto_body_titulo"><strong>Const</strong></p>
+        </li>
+    </ul>
+    <p class="texto_body_texto">O const permite que você declare uma variável com escopo de bloco. Uma variável
+        declarada com const deve ser inicializada com um valor ao ser declarada e não pode ser reatribuída a um novo
+        valor posteriormente. Similar ao Let, const não permite a redeclaração de variáveis no mesmo escopo.</strong>
+    </p>
+    <p class="texto_body_texto">Mostrando isso na prática:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_3.png">
+    </br>
+    <p class="texto_body_texto">Maneira correta de declarar variável usando const:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_4.png">
 
+    <p class="texto_body_texto">Então, em resumo:
+        Use let quando você precisa de uma variável que pode ter seu valor reatribuído e const quando você precisa de
+        uma variável que não será reatribuída após a inicialização.
+    </p>
     <!-- Rodapé -->
     <footer class="main-footer">
         <div class="div1_rodape">
@@ -130,5 +115,7 @@
             <p><a href="../../HTML/sobre.html" class="texto_body_texto">Sobre</a></p>
         </div>
     </footer>
+
 </body>
+
 </html>

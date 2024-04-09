@@ -231,10 +231,11 @@
             <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/img_11.png">
         </ul>
         <p class="texto_body_texto_margin">Para saber mais detalhes, consulte o site oficial do VS Code: <a
-                href="https://code.visualstudio.com/docs/getstarted/themes"
-                class="links" target="_blank">https://code.visualstudio.com/docs/getstarted/themes </a> e descubra mais temas e maneiras de
-                deixar seu ambiente de programação do jeito que preferir.
-            
+                href="https://code.visualstudio.com/docs/getstarted/themes" class="links"
+                target="_blank">https://code.visualstudio.com/docs/getstarted/themes </a> e descubra mais temas e
+            maneiras de
+            deixar seu ambiente de programação do jeito que preferir.
+
         </p>
     </ol>
     </br>
@@ -280,7 +281,7 @@
         </li>
     </ol>
     <p class="texto_body_texto">Instalação concluída!</p>
-    
+
     </br>
 
     <p class="texto_body_texto">Após a instalação do Node.Js, abra um terminal (cmd ou PowerShell) e digite <strong>npm
@@ -293,6 +294,39 @@
         <li class="texto_body_texto_li">Onde instalar: <a href="https://nodejs.org/en/download/" class="links"
                 target="_blank">https://nodejs.org/en/download/</a></li>
     </ul>
+
+    </br>
+    <!-- Como executar o meu código? -->
+    <p class="texto_body_texto"><strong>Como executar o meu código?</strong></p>
+    <p class="texto_body_texto">Primeiro, é necessário realizar a compilação do código. No terminal do Visual Studio
+        Code (localizado no canto superior esquerdo), digite o seguinte comando:
+    </p>
+    <p class="texto_body_texto_li"><strong>npx tsc nome_do_seu_arquivo.ts</strong></p>
+    <p class="texto_body_texto"><strong>npx </strong>- é um executor de pacotes;</p>
+    <p class="texto_body_texto"><strong>tsc </strong>- compilador do TypeScript;</p>
+    <p class="texto_body_texto"><strong>nome_do_seu_arquivo </strong>- é o nome do arquivo que você criou para escrever
+        seu
+        código;
+    </p>
+    <p class="texto_body_texto"><strong>.ts </strong>- significa que seu código será feito na linguagem TypeScript.
+        Feito isso, deverá aparecer um arquivo com o mesmo nome mas com terminação <strong>.js</strong>
+        , assim como na imagem abaixo. Isso significa que o código que você escreverá, estará sendo traduzido para
+        JavaScript!
+    </p>
+    <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/node_img_1.png">
+    <p class="texto_body_texto">E para finalmente testar se seu código funciona (no terminal), o comando é:</p>
+    <p class="texto_body_texto"><strong>node nome_do_seu_arquivo.js</strong>></p>
+    <p class="texto_body_texto">Você também pode testar seus códigos no seu navegador. Para isso, crie um arquivo com
+        terminação <strong>.html </strong>e basta digitar um ponto de exclamação para que uma estrutura básica de uma
+        página html seja criada. Dentro da tag
+        <strong>body</strong>, escreva como o exemplo da imagem abaixo:
+    </p>
+    <img class="img-fluid instalacao_vcscode_imgs_2" src="./IMAGES/INSTALACAO VSCODE/node_img_2.png">
+    <p class="texto_body_texto">IMPORTANTE: para ser executado no navegador, troque o “<strong>console.log( )</strong>” por
+        “<strong>document.write( )</strong>” no seu código.
+    </p>
+
+
 
     <!-- Rodapé -->
     <footer class="main-footer">

@@ -20,8 +20,8 @@ body {
 }
 .texto_body_texto{
     color: white;
-    font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
-    margin-left: 20px; 
+    font-family: "Libre Franklin", Arial, Helvetica, sans-serif; 
+    margin-bottom: 10px;
 } 
 .voltar_pag_inicial{
     font-family: 'Courier Prime', Arial, Helvetica, sans-serif; 
