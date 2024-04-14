@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aprendaTS - Let e Const</title>
-    <link rel="stylesheet" href="../../CSS/ASSUNTOS/string.css">
+    <title>aprendaTS - if, else e else if</title>
+    <link rel="stylesheet" href="../../CSS/ASSUNTOS/if_e_else.css">
     <!-- Google Fonts : -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -65,48 +65,58 @@
     </header>
     <!-- Fim do Cabeçalho -->
 
-    <p class="texto_body_titulo"><strong>Diferença entre Let e Const</strong></p>
+    <p class="texto_body_titulo"><strong>If, Else e Else if</strong></p>
     <!-- Let -->
     <ul>
         <li>
-            <p class="texto_body_titulo"><strong>Let</strong></p>
+            <p class="texto_body_titulo"><strong>If</strong></p>
         </li>
-    </ul>
-    <p class="texto_body_texto">O let permite que você declare uma variável com escopo de bloco, o que significa que ela
-        é <strong>acessível apenas dentro do bloco onde foi declarada</strong>.Uma variável declarada com let pode ser
-        reatribuída a um
-        novo valor dentro do mesmo escopo. Ele não permite a redeclaração de variáveis no mesmo escopo. <strong>Tentar
-            redeclarar uma variável resultará em um erro de sintaxe.</strong>
-    </p>
-    <p class="texto_body_texto">Mostrando isso na prática:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_1.png">
-    </br>
-    <p class="texto_body_texto">aneira correta de declarar variável usando let:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_2.png">
+        <p class="texto_body_texto">O if é uma estrutura de controle de fluxo condicional que executa um bloco de código
+            se a condição especificada for avaliada como verdadeira (true). A sintaxe é a seguinte: if (condição) { //
+            código a ser executado se a condição for verdadeira}.
+        </p>
+        </br>
+        <p class="texto_body_texto">Exemplo:</p>
+        </br>
 
-    <!-- Const -->
-    <ul>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/IF E ELSE/if.png">
+        </br>
+
         <li>
-            <p class="texto_body_titulo"><strong>Const</strong></p>
+            <p class="texto_body_titulo"><strong>Else if</strong></p>
         </li>
-    </ul>
-    <p class="texto_body_texto">O const permite que você declare uma variável com escopo de bloco. Uma variável
-        declarada com const deve ser inicializada com um valor ao ser declarada e não pode ser reatribuída a um novo
-        valor posteriormente. Similar ao Let, const não permite a redeclaração de variáveis no mesmo escopo.</strong>
-    </p>
-    <p class="texto_body_texto">Mostrando isso na prática:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_3.png">
-    </br>
-    <p class="texto_body_texto">Maneira correta de declarar variável usando const:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_4.png">
+        <p class="texto_body_texto">O if else é uma extensão do if e permite executar diferentes blocos de código com
+            base em diferentes condições. Se a condição do if for verdadeira, o bloco de código dentro do if é
+            executado. Se a condição do if for falsa, o bloco de código dentro do else if é executado. Se a condição do
+            else if for falsa, o bloco de código dentro do else é executado.
+        </p>
+        </br>
+        <p class="texto_body_texto">Exemplo:</p>
+        </br>
 
-    <p class="texto_body_texto">Então, em resumo:
-        Use let quando você precisa de uma variável que pode ter seu valor reatribuído e const quando você precisa de
-        uma variável que não será reatribuída após a inicialização.
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/IF E ELSE/else_if.png">
+        </br>
+
+        <li>
+            <p class="texto_body_titulo"><strong>Else</strong></p>
+        </li>
+        <p class="texto_body_texto">O bloco else é usado em conjunto com o if para executar um bloco de código quando a
+            condição do if for avaliada como falsa. Se a condição do if for verdadeira, o bloco de código dentro do else
+            não será executado. A sintaxe é a seguinte: if (condição) {// código a ser executado se a condição for
+            verdadeira} else {// código a ser executado se a condição for falsa}.
+        </p>
+        </br>
+        <p class="texto_body_texto">Exemplo:</p>
+        </br>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/IF E ELSE/else_if.png">
+        </br>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/IF E ELSE/else.png">
+        </br>
+
+    </ul>
+
+    <p class="texto_body_texto">Esses três blocos de controle de fluxo são fundamentais para a programação em TS
+        e são usados para controlar o comportamento do programa com base em diferentes condições.
     </p>
     </br>
     </br>

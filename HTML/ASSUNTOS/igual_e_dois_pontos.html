@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aprendaTS - Let e Const</title>
-    <link rel="stylesheet" href="../../CSS/ASSUNTOS/string.css">
+    <title>aprendaTS - "=" e ":"</title>
+    <link rel="stylesheet" href="../../CSS/ASSUNTOS/igual_e_dois_pontos.css">
     <!-- Google Fonts : -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -56,7 +56,6 @@
                                 <a href="./let_e_const.html">Let e Const</a>
                                 <a href="./igual_e_dois_pontos.html">"=" e ":"</a>
                                 <a href="">Function</a>
-                            </div>
                     </ul>
                 </div>
             </center>
@@ -65,48 +64,43 @@
     </header>
     <!-- Fim do Cabeçalho -->
 
-    <p class="texto_body_titulo"><strong>Diferença entre Let e Const</strong></p>
+    <p class="texto_body_titulo"><strong>Diferença entre "=" e ":" na definição de strings</strong></p>
     <!-- Let -->
     <ul>
         <li>
-            <p class="texto_body_titulo"><strong>Let</strong></p>
+            <p class="texto_body_titulo"><strong>=</strong></p>
         </li>
-    </ul>
-    <p class="texto_body_texto">O let permite que você declare uma variável com escopo de bloco, o que significa que ela
-        é <strong>acessível apenas dentro do bloco onde foi declarada</strong>.Uma variável declarada com let pode ser
-        reatribuída a um
-        novo valor dentro do mesmo escopo. Ele não permite a redeclaração de variáveis no mesmo escopo. <strong>Tentar
-            redeclarar uma variável resultará em um erro de sintaxe.</strong>
-    </p>
-    <p class="texto_body_texto">Mostrando isso na prática:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_1.png">
-    </br>
-    <p class="texto_body_texto">aneira correta de declarar variável usando let:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_2.png">
+        <p class="texto_body_texto">O símbolo " = " é utilizado para atribuir um valor a uma variável.
+            Quando você está atribuindo uma string a uma variável, você usa o símbolo "=" para indicar essa atribuição.
+            Por
+            exemplo:
+        </p>
+        </br>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/IGUAL E DOIS PONTOS/igual.png">
+        </br>
+        <p class="texto_body_texto">Neste exemplo, a string "Olá!" é atribuída à variável saudação usando o operador " =
+            ".</p>
 
-    <!-- Const -->
-    <ul>
         <li>
-            <p class="texto_body_titulo"><strong>Const</strong></p>
+            <p class="texto_body_titulo"><strong>:</strong></p>
         </li>
     </ul>
-    <p class="texto_body_texto">O const permite que você declare uma variável com escopo de bloco. Uma variável
-        declarada com const deve ser inicializada com um valor ao ser declarada e não pode ser reatribuída a um novo
-        valor posteriormente. Similar ao Let, const não permite a redeclaração de variáveis no mesmo escopo.</strong>
-    </p>
-    <p class="texto_body_texto">Mostrando isso na prática:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_3.png">
-    </br>
-    <p class="texto_body_texto">Maneira correta de declarar variável usando const:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_4.png">
 
-    <p class="texto_body_texto">Então, em resumo:
-        Use let quando você precisa de uma variável que pode ter seu valor reatribuído e const quando você precisa de
-        uma variável que não será reatribuída após a inicialização.
+    </ul>
+    <p class="texto_body_texto">O símbolo " : " é usado para associar um nome de propriedade a um valor dentro de um
+        objeto. Em JavaScript, os objetos são estruturas de dados que contêm pares de chave-valor, onde o nome da chave
+        é seguido por ":" e depois o valor associado a essa chave. Isso é comumente utilizado em objetos literais. Por
+        exemplo:
+    </p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/IGUAL E DOIS PONTOS/dois_pontos.png">
+    </br>
+    <p class="texto_body_texto">Neste exemplo, nome e idade são as chaves do objeto pessoa, e "Francisca" e 30
+        são os valores associados a essas chaves, respectivamente.
+    </p>
+    <p class="texto_body_texto">Portanto, " = " é usado para atribuir valores a variáveis, enquanto " : "é usado
+        para associar chaves a valores em objetos. Ambos são fundamentais em TS para trabalhar com diferentes
+        tipos de dados e estruturas de dados.
     </p>
     </br>
     </br>

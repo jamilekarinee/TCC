@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aprendaTS - Let e Const</title>
-    <link rel="stylesheet" href="../../CSS/ASSUNTOS/string.css">
+    <title>aprendaTS - Classe</title>
+    <link rel="stylesheet" href="../../CSS/ASSUNTOS/class.css">
     <!-- Google Fonts : -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -65,55 +65,62 @@
     </header>
     <!-- Fim do Cabeçalho -->
 
-    <p class="texto_body_titulo"><strong>Diferença entre Let e Const</strong></p>
-    <!-- Let -->
-    <ul>
-        <li>
-            <p class="texto_body_titulo"><strong>Let</strong></p>
-        </li>
-    </ul>
-    <p class="texto_body_texto">O let permite que você declare uma variável com escopo de bloco, o que significa que ela
-        é <strong>acessível apenas dentro do bloco onde foi declarada</strong>.Uma variável declarada com let pode ser
-        reatribuída a um
-        novo valor dentro do mesmo escopo. Ele não permite a redeclaração de variáveis no mesmo escopo. <strong>Tentar
-            redeclarar uma variável resultará em um erro de sintaxe.</strong>
+    <p class="texto_body_titulo"><strong>Classe</strong></p>
+    <p class="texto_body_texto">A palavra-chave class é utilizada para definir uma classe, que é uma estrutura
+        para criar objetos com propriedades e métodos.
     </p>
-    <p class="texto_body_texto">Mostrando isso na prática:</p>
+    <p class="texto_body_texto">Veja agora a explicação básica do uso do class em TypeScript:</p>
+    <p class="texto_body_titulo">
+        Definindo uma classe:
+    </p>
+    <p class="texto_body_texto">Você pode definir uma classe usando a sintaxe class NomeDaClasse {...}.
+        Dentro do bloco de definição da classe, você pode declarar métodos e propriedades.
+    </p>
     </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_1.png">
+    <p class="texto_body_texto">Exemplo:</p>
     </br>
-    <p class="texto_body_texto">aneira correta de declarar variável usando let:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_2.png">
 
-    <!-- Const -->
-    <ul>
-        <li>
-            <p class="texto_body_titulo"><strong>Const</strong></p>
-        </li>
-    </ul>
-    <p class="texto_body_texto">O const permite que você declare uma variável com escopo de bloco. Uma variável
-        declarada com const deve ser inicializada com um valor ao ser declarada e não pode ser reatribuída a um novo
-        valor posteriormente. Similar ao Let, const não permite a redeclaração de variáveis no mesmo escopo.</strong>
-    </p>
-    <p class="texto_body_texto">Mostrando isso na prática:</p>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/CLASS/class_1.png">
     </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_3.png">
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/CLASS/class_2.png">
     </br>
-    <p class="texto_body_texto">Maneira correta de declarar variável usando const:</p>
-    </br>
-    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_4.png">
 
-    <p class="texto_body_texto">Então, em resumo:
-        Use let quando você precisa de uma variável que pode ter seu valor reatribuído e const quando você precisa de
-        uma variável que não será reatribuída após a inicialização.
+    <p class="texto_body_titulo">Constructor</p>
+    <p class="texto_body_texto">O método constructor é um método especial que é chamado quando um novo objeto da classe
+        é criado. Ele é usado para inicializar os valores das propriedades do objeto.
+    </p>
+    <p class="texto_body_titulo">Instanciando objetos:</p>
+    <p class="texto_body_texto">Para criar um novo objeto de uma classe, você utiliza a palavra-chave new seguida do
+        nome da classe, passando quaisquer argumentos necessários para o construtor da classe.
+    </p>
+    <p class="texto_body_texto">Exemplo:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/CLASS/class_3.png">
+    <p class="texto_body_titulo">Métodos</p>
+    <p class="texto_body_texto">Você pode adicionar métodos à classe para definir o comportamento dos objetos criados a
+        partir dela.
+    </p>
+    <p class="texto_body_titulo">Herança</p>
+    <p class="texto_body_texto">Classes em JavaScript suportam herança, permitindo que uma classe herde métodos e
+        propriedades de outra classe. Isso é feito usando a palavra-chave extends.
     </p>
     </br>
+    <p class="texto_body_texto">Exemplo:</p>
     </br>
+
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/CLASS/class_4.png">
     </br>
-    <p class="voltar_pag_inicial">
-        <a href="../../index.html">Voltar para a página inicial</a>
-    </p>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/CLASS/class_5.png">
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/CLASS/class_6.png">
+    </br>
+    <p class="texto_body_texto">Neste exemplo, Estudante é uma subclasse de Pessoa, então os objetos da classe Estudante
+        herdam propriedades e métodos da classe Pessoa.</p>
+    <p class="texto_body_texto">Esses são os conceitos básicos sobre o uso da palavra-chave class em TS.</p>
+    </br>
+</br>
+
+    <p class="voltar_pag_inicial"><a href="../../index.html">Voltar para a página inicial</a></p>
 
     <!-- Rodapé -->
     <footer class="main-footer">
@@ -126,7 +133,6 @@
             <p><a href="../../HTML/sobre.html" class="texto_body_texto">Sobre</a></p>
         </div>
     </footer>
-
 </body>
 
 </html>
